@@ -1,0 +1,56 @@
+<html lang="en-US">
+
+<head>
+
+    <link rel="stylesheet" href="style/style.css">
+
+
+
+    <title>
+        Nice Notes
+    </title>
+    <!--       Title on the Browser Tab      -->
+    <link rel="icon" type="image/png" href="photos/North Star Logo 02.png"> <!--     favicon image     -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "Ssl_7fJ6R-K8SRah2",
+            });
+        })();
+    </script>
+    <script src="email.js"></script>
+</head>
+
+
+
+<body style="background-color: antiquewhite;">
+    <header class="body">
+        <h1>
+            North Star YSA<br><span class="nice">Nice Notes</span>
+        </h1>
+
+        <p class="labels">
+            <label for="paragraph">This note goes to:</label>
+        </p>
+        
+        <p class="name">
+            <input type="text" id="name" placeholder="Name..." class="name_area">
+        </p>
+
+        <p class="note">
+            <label for="paragraph">Write your paragraph:</label>
+        </p>
+        
+        <p class="note_area">
+            <textarea id="note" name="nice_note" rows="5" cols="60" placeholder="Write your Nice Note here..." class="note_area"></textarea>
+        </p>
+        <button type="submit" onclick="sendmail()">Send</button>
+
+
+
+       
+    </header>
+</body>
