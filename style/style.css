@@ -8,6 +8,16 @@
     src: url(fonts/Creato\ Display/CreatoDisplay-Thin.otf);
 }
 
+@font-face {
+    font-family: 'creato_standard';
+    src: url(fonts/Creato\ Display/CreatoDisplay-Regular.otf);
+}
+
+@font-face {
+    font-family: 'creato_bold';
+    src: url(fonts/Creato\ Display/CreatoDisplay-Bold.otf);
+}
+
 
 h1 {
     text-align: center; 
@@ -25,7 +35,7 @@ h1 {
 
 .labels {
     text-align: center; 
-    font-family: creato_thin;
+    font-family: creato_standard;
 }
 
 
@@ -34,7 +44,7 @@ h1 {
 }
 
 .name_area {
-    font-family: creato_thin; 
+    font-family: creato_standard; 
     font-size: 27px; 
     max-width: 400px; 
     width: 60%;
@@ -52,14 +62,14 @@ h1 {
 .note {
     text-align: center; 
     padding: 10px 0 0;
-    font-family: creato_thin;
+    font-family: creato_standard;
 
 }
 
 .note_area {
     width: 90%; 
     font-size: 20px; 
-    font-family: creato_thin;
+    font-family: creato_standard;
     padding: 10px;
     resize: none;
     margin: 0px auto 40px;
@@ -77,10 +87,9 @@ h1 {
      background-color: whitesmoke; 
      width: 80%; 
      max-width: 800px; 
-     margin: 100px auto; 
+     margin: 300px auto; 
      border-radius: 40px;
      box-shadow: 0 20px 30px 10px rgba(0, 0, 0, .3);
      text-align: center;
-     border-style: solid;
-     border-color: whitesmoke;
+     padding: 50px 0;
 }
