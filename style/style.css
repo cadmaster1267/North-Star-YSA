@@ -27,6 +27,11 @@ h1 {
     padding: 30px 0 0 0;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .nice {
     text-align: center; 
     font-family: creato_thin; 
@@ -113,11 +118,10 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0 1px 0 0px;
 }
 
 nav li{
-    height: 70px;
+    height: 90px;
 }
 
 nav a {
@@ -127,9 +131,81 @@ nav a {
     display: flex;
     align-items: center;
     color: black;
-
 }
 
 nav a:hover {
-    background-color: blanchedalmond;
+    background-color: rgb(232, 242, 247);
+    border-width: 20px;
+    box-shadow: inset 0 0 7px 6px white;
+    border-radius: 25px;
+}
+
+nav a:active {
+    background-color: rgb(206, 232, 245);
+    border-width: 20px;
+    box-shadow: inset 0 0 3px 10px rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+nav li:first-child  {
+    margin-right: auto;
+}
+
+.nav_icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.616);
+    backdrop-filter: blur(6px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    width: 100%;
+    height: 60px;
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+.nav_icon02 {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.sidebar_logo {
+    justify-content: center;
+    padding: 0;
+}
+
+.sidebar li:first-child {
+    height: 90px;
+    padding: 30px 0 0 0;
+}
+
+@media(max-width: 950px){
+    .hideOnMobile{
+        display: none;
+    }
+}
+
+@media(min-width: 951px){
+    .hideOnDesktop{
+        display: none;
+    }
 }
