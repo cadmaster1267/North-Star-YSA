@@ -126,7 +126,7 @@ nav li{
 
 nav a {
     height: 100%;
-    padding: 0 30px;
+    padding: 0 20px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -198,13 +198,13 @@ nav li:first-child  {
     padding: 30px 0 0 0;
 }
 
-@media(max-width: 950px){
+@media(max-width: 780px){
     .hideOnMobile{
         display: none;
     }
 }
 
-@media(min-width: 951px){
+@media(min-width: 781px){
     .hideOnDesktop{
         display: none;
     }
