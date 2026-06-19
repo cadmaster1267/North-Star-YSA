@@ -84,7 +84,7 @@ h1 {
     outline-color:  rgb(144, 221, 0);
 }
 
-.body {
+.main {
      background-color: whitesmoke; 
      width: 80%; 
      max-width: 800px; 
@@ -93,4 +93,43 @@ h1 {
      box-shadow: 0 20px 30px 10px rgba(0, 0, 0, .3);
      text-align: center;
      padding: 60px 0;
+}
+
+.body {
+    min-height: 100vh;
+    background-color: rgb(212, 231, 240);
+    font-family: creato_standard;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .1);
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1px 0 0px;
+}
+
+nav li{
+    height: 70px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+
+}
+
+nav a:hover {
+    background-color: blanchedalmond;
 }
