@@ -1,6 +1,3 @@
-:root {
-    --ham_size: 48px;
-
 @font-face {
     font-family: 'creato_light';
     src: url(fonts/Creato\ Display/CreatoDisplay-Light.otf);
@@ -21,6 +18,8 @@
     src: url(fonts/Creato\ Display/CreatoDisplay-Bold.otf);
 }
 
+:root {
+    --ham_size: 48px;
 
 h1 {
     text-align: center; 
