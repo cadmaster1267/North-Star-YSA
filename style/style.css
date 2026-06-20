@@ -18,8 +18,6 @@
     src: url(fonts/Creato\ Display/CreatoDisplay-Bold.otf);
 }
 
-:root {
-    --ham_size: 48px;
 
 h1 {
     text-align: center; 
@@ -190,6 +188,12 @@ nav li:first-child  {
     height: 80px;
     object-fit: contain;
 }
+
+.menu_icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+{
 
 .sidebar_logo {
     justify-content: center;
