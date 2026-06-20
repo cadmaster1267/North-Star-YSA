@@ -1,3 +1,6 @@
+:root {
+    --ham_size: 48px;
+
 @font-face {
     font-family: 'creato_light';
     src: url(fonts/Creato\ Display/CreatoDisplay-Light.otf);
